@@ -1,0 +1,216 @@
+
+body{
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  background: rgba(45, 45, 45, 0.98);
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left:0;
+  right:0;
+  top:0;
+  z-index: 10000;
+  backdrop-filter: blur(4px);
+}
+
+
+a{
+	text-decoration: none;
+	opacity: 1;
+	color: black;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.header h1{
+	font-weight: 400;
+	font-size: 13px;
+	padding-top: 7px;
+}
+
+.header a{
+	color: white;
+	transition: color 0.1s ease;
+}
+
+a:hover{
+	color: #cccccc;
+}
+
+#apple-logo {
+	content:url(images/apple-white.png);
+	height: 19px;
+	width: 19px;
+	color: red;
+	padding-top: 12px;
+	padding-left: 230px;
+	padding-bottom: 14px;
+}
+
+#apple-logo:hover {
+	content:url(images/apple-gray.png);
+}
+
+#search {
+	content:url(images/search-logo.png);
+	height: 15px;
+	width: 15px;
+	padding-top: 16px;
+	padding-bottom: 14px;
+}
+
+#search:hover {
+	content:url(images/search-gray.png);
+	height: 15px;
+	width: 15px;
+	padding-top: 16px;
+	padding-bottom: 14px;
+}
+
+#bag {
+	content:url(images/bag-logo.png);
+	height: 19px;
+	width: 17px;
+	padding-top: 12px;
+	padding-right: 200px;
+	padding-bottom: 14px;
+}
+
+#bag:hover {
+	content:url(images/bag-gray.png);
+	height: 19px;
+	width: 17px;
+	padding-top: 12px;
+	padding-right: 200px;
+	padding-bottom: 14px;
+}
+
+#apple-logo-in {
+	content:url(images/apple-logo.png);
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: 6px;
+}
+
+
+/* Section 1 */
+.sec{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    margin-top: 40px;
+    background-color: #FAFAFA;
+
+
+}
+
+
+.text{
+	font-size: 43px;
+	font-weight: 410;
+	float: right;
+	margin-bottom: 7px;
+}
+
+p{
+	margin: 0;
+	margin-bottom: 4px;
+	padding: 0;
+	font-size: 22px;
+	font-weight: 350;
+}
+
+.arrow{
+	font-size: 12px;
+	transform: scale(1, 2);
+	-webkit-transform: scale(1, 2); /* Safari and Chrome */
+    -moz-transform: scale(1, 2); /* Firefox */
+    -ms-transform: scale(1, 2); /* IE 9+ */
+    -o-transform: scale(1, 2); /* Opera */
+    margin-right: 15px;
+    margin-top: 6px;
+    color: 	#0470C9;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.c a{
+	margin-right: 8px;
+	font-size: 20px;
+	color: #3A6CB6;
+}
+
+.c a:hover{
+	margin-right: 8px;
+	font-size: 20px;
+	color: #3A6CB6;
+	text-decoration: underline;
+}
+
+.an{
+	margin-left: 15px;
+}
+
+.img1{
+	content:url(images/img1.png);
+	height: 340px;
+	margin-top: 35px;
+}
+
+/* Section 2 */
+.xr{
+	margin-top: 15px;
+}
+
+#r-logo {
+	content:url(images/r-logo.png);
+	height: 37px;
+	width: 37px;
+	float: right;
+	margin-top: 6px;
+	margin-left: 6px;
+}
+
+.img2{
+	content:url(images/img2.png);
+	height: 370px;
+	margin-top: 15px;
+}
+
+/* Section 3 */
+.xs{
+	margin-top: 15px;
+}
+
+#s-logo {
+	content:url(images/s-logo.png);
+	height: 37px;
+	width: 37px;
+	float: right;
+	margin-top: 6px;
+	margin-left: 6px;
+}
+
+.img3{
+	content:url(images/img3.png);
+	height: 340px;
+	margin-top: 30px;
+}
+
